@@ -65,13 +65,13 @@
         bootloader_left {
             bindings = <&bootloader>;
             key-positions = <20 34>;
-            layers = <4>;
+            layers = <3>;
         };
 
         bootloader_right {
             bindings = <&bootloader>;
             key-positions = <39 21>;
-            layers = <4>;
+            layers = <3>;
         };
 
         no_hm_mod_layer {
