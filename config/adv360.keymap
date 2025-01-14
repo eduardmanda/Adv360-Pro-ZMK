@@ -121,11 +121,11 @@
 
         home-row-mods {
             bindings = <
-&trans  &trans               &trans           &trans         &trans               &trans  &trans                                      &trans  &trans          &kp C_VOLUME_DOWN              &kp C_VOLUME_UP       &kp C_MUTE                  &trans                        &trans
-&trans  &trans               &trans           &trans         &trans               &trans  &trans                                      &trans  &trans          &trans                         &trans                &trans                      &trans                        &trans
-&trans  &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LSHIFT D  &hml LEFT_COMMAND F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &hmr RIGHT_COMMAND DOWN_ARROW  &hmr RSHIFT UP_ARROW  &hmr RIGHT_ALT RIGHT_ARROW  &hmr RIGHT_CONTROL SEMICOLON  &trans
-&trans  &trans               &trans           &trans         &trans               &trans                  &trans      &trans                  &trans          &trans                         &trans                &trans                      &trans                        &trans
-&trans  &trans               &trans           &trans         &trans                       &trans  &trans  &trans      &trans  &trans  &trans                  &trans                         &trans                &trans                      &trans                        &trans
+&trans  &trans               &trans           &trans         &trans               &trans  &trans                                     &trans  &trans          &kp C_VOLUME_DOWN              &kp C_VOLUME_UP       &kp C_MUTE                  &trans                        &trans
+&trans  &trans               &trans           &trans         &trans               &trans  &trans                                     &trans  &trans          &trans                         &trans                &trans                      &trans                        &trans
+&trans  &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LSHIFT D  &hml LEFT_COMMAND F  &trans  &trans  &none   &none      &trans  &trans  &trans  &kp LEFT_ARROW  &hmr RIGHT_COMMAND DOWN_ARROW  &hmr RSHIFT UP_ARROW  &hmr RIGHT_ALT RIGHT_ARROW  &hmr RIGHT_CONTROL SEMICOLON  &trans
+&trans  &trans               &trans           &trans         &trans               &trans                  &none      &trans                  &trans          &trans                         &trans                &trans                      &trans                        &trans
+&trans  &trans               &trans           &trans         &trans                       &none   &trans  &none      &trans  &trans  &trans                  &trans                         &trans                &trans                      &trans                        &trans
             >;
         };
 
