@@ -99,11 +99,6 @@
             bindings = <&kp RC(RG(Q))>;
             key-positions = <0 13>;
         };
-
-        home_row_mods_layer_default {
-            bindings = <&tog 1>;
-            key-positions = <20 34 21 39>;
-        };
     };
 
     keymap {
