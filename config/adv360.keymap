@@ -116,11 +116,11 @@
 
         default_layer {
             bindings = <
-&kp MINUS  &kp N1               &kp N2       &kp N3         &kp N4               &kp N5  &tog 4                                                                                    &none                 &kp N6  &kp N7                &kp N8         &kp N9       &kp N0                   &kp EQUAL
-&kp TAB    &kp Q                &kp W        &kp E          &kp R                &kp T   &none                                                                                     &none                 &kp Y   &kp U                 &kp I          &kp O        &kp P                    &kp BSLH
-&kp ESC    &hml LEFT_CONTROL A  &hml LALT S  &hml LSHIFT D  &hml LEFT_COMMAND F  &kp G   &none          &none  &none                   &kp RA(RG(NUMBER_1))  &kp RA(RG(NUMBER_2))  &none                 &kp H   &hmr RIGHT_COMMAND J  &hmr RSHIFT K  &hmr RALT L  &hmr RIGHT_CONTROL SEMI  &kp SQT
-&mo 5      &kp Z                &kp X        &kp C          &kp V                &kp B                         &none                   &none                                                             &kp N   &kp M                 &kp COMMA      &kp DOT      &kp FSLH                 &mo 3
-&mo 5      &kp CAPSLOCK         &kp GRAVE    &kp LBKT       &kp RBKT                     &kp BACKSPACE  &mo 2  &lshift_caps_dance      &kp RIGHT_ALT         &kp ENTER             &space_thumb 1 SPACE          &kp LEFT              &kp DOWN       &kp UP       &kp RIGHT                &mo 3
+&kp MINUS  &kp N1               &kp N2       &kp N3         &kp N4               &kp N5  &tog 4                                                                                    &none                 &kp N6  &kp N7                &kp N8         &kp N9         &kp N0                   &kp EQUAL
+&kp TAB    &kp Q                &kp W        &kp E          &kp R                &kp T   &none                                                                                     &none                 &kp Y   &kp U                 &kp I          &kp O          &kp P                    &kp BSLH
+&kp ESC    &hml LEFT_CONTROL A  &hml LALT S  &hml LSHIFT D  &hml LEFT_COMMAND F  &kp G   &kp LC(A)      &none  &none                   &kp RA(RG(NUMBER_1))  &kp RA(RG(NUMBER_2))  &kp RC(A)             &kp H   &hmr RIGHT_COMMAND J  &hmr RSHIFT K  &hmr RALT L    &hmr RIGHT_CONTROL SEMI  &kp SQT
+&mo 5      &kp Z                &kp X        &kp C          &kp V                &kp B                         &none                   &none                                                             &kp N   &kp M                 &kp COMMA      &kp DOT        &kp FSLH                 &mo 3
+&mo 5      &kp CAPSLOCK         &kp GRAVE    &kp LBKT       &kp RBKT                     &kp BACKSPACE  &mo 2  &lshift_caps_dance      &kp RIGHT_ALT         &kp ENTER             &space_thumb 1 SPACE          &kp RG(C)             &kp RG(V)      &kp RG(RS(V))  &kp LC(A)                &mo 3
             >;
         };
 
